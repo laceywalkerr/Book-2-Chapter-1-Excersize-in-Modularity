@@ -10,4 +10,11 @@ const tulip = {
     "species": ["Tylennis oriander"]
 }
 
+const rose = {
+    "id": 1,  // See what happens when you change this to 1
+    "commonName": "Rose",
+    "species": ["Rosius Maximus"]
+}
+
 saveFlower(tulip)
+saveFlower(rose)
