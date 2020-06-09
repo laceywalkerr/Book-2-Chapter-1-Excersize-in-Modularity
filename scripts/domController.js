@@ -3,11 +3,18 @@ const flower = getFlower(1)
 // Update the DOM
 document.querySelector("#currentFlower").innerHTML = `${flower.commonName}`
 
-// Add a new flower to the database
+
 const tulip = {
-    "id": 3,  // See what happens when you change this to 1
+    "id": 1,  
     "commonName": "Tulip",
     "species": ["Tylennis oriander"]
 }
 
+const rose = {
+    "id": 2,  
+    "commonName": "Rose",
+    "species": ["Rosius Maximus"]
+}
+
 saveFlower(tulip)
+saveFlower(rose)
